@@ -3,6 +3,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1{
+    font-family: cursive;
+}
+
 #mostrador{
     background-color: beige;
     height: 50px;
