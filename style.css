@@ -1,1 +1,28 @@
 @charset "UTF-8"
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mostrador{
+    background-color: beige;
+    height: 50px;
+    width: 164px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+div button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 2px;
+    background-color: rgb(154, 221, 199);
+    border-radius: 10px;
+}
+
+#limpar{
+    width: 184px;
+    font-weight: bold;
+}
