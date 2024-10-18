@@ -21,13 +21,22 @@ h1{
 div button{
     width: 40px;
     height: 40px;
-    border: none;
+    border: 1px solid transparent;
     margin: 2px;
     background-color: rgb(154, 221, 199);
     border-radius: 10px;
 }
 
-#limpar{
+#limpar, #igual{
     width: 184px;
     font-weight: bold;
 }
+
+div button:hover{
+    border: 1px solid black;
+}
+
+div button:active{
+    border: 1px solid red;
+}
+
